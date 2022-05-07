@@ -1,0 +1,44 @@
+html {
+    height: 100;
+}
+body {
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to top, #005BBB 0%, #FFD500 100%);
+    background: url('./assets/img/sunflowers.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+/*temp strong style*/
+strong{
+    font-weight: bolder !important;
+}
+
+blockquote{
+    margin: 1%;
+    padding-left: 1.5rem;
+    border: 5px; /* Just change the color value and that's it*/
+    font-size: 19px;
+    }
+
+p {
+    font-size: 18px; 
+}
+
+nav {
+    background: #005BBB
+}
+
+section {
+    margin: 1%
+}
+
+.card {
+    background: linear-gradient(to top, #005BBB 0%, #FFD500 100%);
+    padding: 1%;
+    margin: 1% 5%
+}
