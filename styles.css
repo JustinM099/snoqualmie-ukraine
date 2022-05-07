@@ -40,5 +40,43 @@ section {
 .card {
     background: linear-gradient(to top, #005BBB 0%, #FFD500 100%);
     padding: 1%;
-    margin: 1% 7%
+    margin: 1% 7%;
+    border-radius: 25px
+}
+
+.intro {
+    animation-duration: 0.6s;
+    animation-name: slidein-1;
+}
+
+.main {
+    animation-duration: 0.6s;
+    animation-name: slidein-2;
+}
+
+.order {
+    animation-duration: 0.6s;
+    animation-name: slidein-1;
+}
+
+@keyframes slidein-1 {
+    from {
+      margin-left: 100%;
+      /* width: 300%; */
+    }
+  
+    to {
+      margin-left: 7%;
+      /* width: 100%; */
+    }
+  }
+
+@keyframes slidein-2 {
+    from {
+        margin-right: 100%;
+
+    }
+    to {
+        margin-right: 7%;
+    }
 }
