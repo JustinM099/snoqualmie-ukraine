@@ -80,3 +80,11 @@ section {
         /* width: 100% */
     }
 }
+
+.order-card {
+    background: #FFD500;
+    padding: 1%;
+    margin: 1% 7%;
+    border-radius: 25px;
+    border: 1px solid black;
+}
